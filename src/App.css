@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url(fondopokemon.gif);
+  background-image: url(fondogif.gif);
   background-size: cover; 
   animation: playVideo 10s infinite; 
   z-index: -1;
@@ -41,6 +41,11 @@
   background-color: rgba(240, 248, 255, 0.622);
   border: 4px solid black;
 }
+
+.tittle__home{
+  color: white;
+}
+
 
 
 .nes-btn {

@@ -20,8 +20,7 @@ const Home = () => {
                 <img className='logo__home' src="logopokemon.png" alt="logo" />
                 <p className='tittle__home'><strong>Pokedex </strong></p>
                 <div class="nes-field">
-                    <label for="name_field">Your name</label>
-                    <input className='nes-input ' type="text" value={name} onChange={e => setName(e.target.value)} />
+                    <input placeholder='Your name' className='nes-input ' type="text" value={name} onChange={e => setName(e.target.value)} />
                 </div>
                 <br />
                 <button className='nes-btn is-success' onClick={() => goPokedex()}>Go</button>
