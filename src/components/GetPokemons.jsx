@@ -74,8 +74,7 @@ const GetPokemons = ({ pokemons, setPokemons }) => {
         ))}
       </div>
       <footer className="footer">
-        {/* Contenido del footer */}
-        Este es el footer de tu aplicación.
+        CREADO POR ALEXBORK
       </footer>
     </div>
   );

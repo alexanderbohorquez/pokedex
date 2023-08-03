@@ -1,4 +1,3 @@
-// Card.js
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -24,7 +23,7 @@ const getTypeColor = (type) => {
   flying: 'rgba(152, 168, 240, 0.9)',
   };
 
-  return typeColors[type.toLowerCase()] || '#333'; // Default color for unknown types
+  return typeColors[type.toLowerCase()] || '#333'; 
 };
 
 const Card = ({ url }) => {

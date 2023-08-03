@@ -11,10 +11,11 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url(fondogif.gif);
+  /* background-image: url(fondogif.gif);
   background-size: cover; 
-  animation: playVideo 10s infinite; 
+  animation: playVideo 10s infinite;  */
   z-index: -1;
+  background-color: #C4CC9D;
 }
 
 .container__home {
@@ -32,6 +33,7 @@
 .tittle__home {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  color: black;
 }
 
 .nes-input {
@@ -42,12 +44,6 @@
   border: 4px solid black;
 }
 
-.tittle__home{
-  color: white;
-}
-
-
-
 .nes-btn {
   padding: 10px;
   margin: 20px;
@@ -55,32 +51,23 @@
   
 }
 
-
-/* ------------------------------- */
-
-/* App.css (o el nombre de tu archivo CSS) */
-
-/* Resto de estilos del documento */
-/* Estilos para el encabezado */
 .pokedex {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #287bb1;
+  background-color: #C4CC9D;
   padding: 10px;
   color: #000000;
   font-family: 'Press Start 2P', cursive;
   border: 4px solid black;
 }
 
-/* Estilos para el título */
 .tittle__pokedex {
   flex: 1;
   font-size: 1.5rem;
   margin: 0;
 }
 
-/* Estilos para el formulario de búsqueda */
 .pokedex-search {
   display: flex;
   align-items: center;
@@ -93,13 +80,11 @@
   border: 4px solid black;
 }
 
-/* Estilos para los botones */
 .nes-btn {
   border: 4px solid black;
   cursor: pointer;
 }
 
-/* Estilos para hacer el header responsive */
 @media (max-width: 768px) {
   .pokedex {
     flex-direction: column;
@@ -123,8 +108,6 @@
   margin-top: 30px;
 }
 
-
-/* Estilos para hacer el título responsive */
 @media (max-width: 768px) {
   .tittle__pokedex {
     font-size: 1.2rem;
@@ -146,8 +129,6 @@
 
 }
 
-
-/* Estilos adicionales para hacer el select responsive */
 @media (max-width: 768px) {
   .nes-select {
     width: 100%;
@@ -158,7 +139,6 @@
     width: 100%;
   }
 }
-
 
 .pokemon-card {
   max-width: 100%;
@@ -177,7 +157,6 @@
   display: flex;
   justify-content: center;
 }
-
 
 .pokemon-image {
   width: 100%;
@@ -209,38 +188,31 @@
   font-size: 11px;
   font-weight: bold;
   color: #fff;
-
 }
 
-/* Media queries para ajustar la tarjeta en diferentes tamaños de pantalla */
-
-
-
-/* Estilos para el contenedor principal */
 .pokemon-list-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end; /* Centrar en la parte inferior */
+  justify-content: flex-end; 
   min-height: 100vh; 
   z-index: 1;
 }
 
-/* Estilos para el contenedor de las tarjetas */
 .cards-container {
   border: 3px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 40px;
-  background-image: url(logo.jpg);
+  /* background-image: url(logo.jpg);
   background-attachment: fixed;
 background-repeat: no-repeat;
-background-size: cover;
-
+background-size: cover; */
+background-color: #C4CC9D;;
 }
 
-/* Estilos para el contenedor del paginador */
+
 .pagination-container {
   display: flex;
   align-items: center;
@@ -248,7 +220,6 @@ background-size: cover;
   gap: 5px;
 }
 
-/* Estilos para el footer */
 .footer {
   margin-top: 20px;
   width: 100%;
@@ -256,9 +227,6 @@ background-size: cover;
   padding: 16px;
   text-align: center;
 }
-
-
-
 
 .pokedex-container-item {
   max-width: 1200px;
